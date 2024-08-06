@@ -240,18 +240,6 @@ body {
   margin-bottom: 20px;
 }
 
-#sliderValues{
-  color: rgb(104, 102, 102);
-  display: flex;
-  flex-direction: row;
-  /* align-items: flex-end; */
-  height:fit-content;
-  justify-content: space-between;
-  /* border: 2px solid black; */
-  margin-bottom: 0;
-}
-
-/* Custom Alert Modal CSS */
 .custom-alert {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -271,8 +259,8 @@ body {
   /* margin-right: 30px; */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-  max-width: 300px;
+  width: fit-content; /* Could be more or less, depending on screen size */
+  max-width: 700px;
   text-align: center;
 }
 
